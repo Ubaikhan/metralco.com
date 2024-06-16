@@ -1,0 +1,98 @@
+/* Style for desktop screens */
+@media only screen and (min-width: 1200px) {
+    /* Styles for desktop screens go here */
+    body {
+      font-size: 18px;
+    }
+   .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+   .header {
+      height: 100px;
+    }
+   .nav {
+      font-size: 16px;
+    }
+  }
+  
+  /* Style for tablet screens */
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /* Styles for tablet screens go here */
+    body {
+      font-size: 16px;
+    }
+   .container {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+   .header {
+      height: 80px;
+    }
+   .nav {
+      font-size: 14px;
+    }
+  }
+  
+  /* Style for mobile screens */
+  @media only screen and (max-width: 767px) {
+    /* Styles for mobile screens go here */
+    body {
+      font-size: 14px;
+    }
+   .container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+   .header {
+      height: 60px;
+    }
+   .nav {
+      font-size: 12px;
+    }
+  }
+  
+  /* Global styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    color: #ccc;
+  }
